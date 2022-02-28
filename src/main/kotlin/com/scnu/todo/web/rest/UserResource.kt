@@ -71,7 +71,20 @@ class UserResource(
 ) {
 
     companion object {
-        private val ALLOWED_ORDERED_PROPERTIES = arrayOf("id", "login", "firstName", "lastName", "email", "activated", "langKey", "createdBy", "createdDate", "lastModifiedBy", "lastModifiedDate")
+        private val ALLOWED_ORDERED_PROPERTIES = arrayOf(
+            "id",
+            "login",
+            "firstName",
+            "lastName",
+            "email",
+            "activated",
+            "langKey",
+            "createdBy",
+            "createdDate",
+            "lastModifiedBy",
+            "lastModifiedDate",
+            "instagram"
+        )
     }
 
     private val log = LoggerFactory.getLogger(javaClass)

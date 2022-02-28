@@ -3,7 +3,7 @@ jib {
         image = "eclipse-temurin:11-jre-focal"
     }
     to {
-        image = "todo:latest"
+        image = "scnu.com/todo-list-backend:latest"
     }
     container {
         entrypoint = ["bash", "-c", "/entrypoint.sh"]

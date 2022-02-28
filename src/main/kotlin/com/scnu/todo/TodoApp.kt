@@ -75,7 +75,6 @@ class TodoApp(private val env: Environment) {
             }
             log.info(
                 """
-
                 ----------------------------------------------------------
                 Application '${env.getProperty("spring.application.name")}' is running! Access URLs:
                 Local:      $protocol://localhost:$serverPort$contextPath
